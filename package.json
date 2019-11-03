@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "nodemon src/app.js",
-    "lint": "eslint --fix --ext .js src",
+    "lint": "eslint --ext .js src",
     "start": "node src/app.js",
     "test": "jest --coverage -i"
   },
