@@ -1,0 +1,52 @@
+{
+  "name": "picart-images-service",
+  "version": "1.0.0",
+  "author": "Vitali Zaneuski <vviital@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vviital/picart-images-service.git"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "lint": "eslint --fix --ext .js src",
+    "start": "node src/app.js",
+    "test": "jest --coverage -i"
+  },
+  "engines": {
+    "node": ">=12.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cls-hooked": "^4.2.2",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "http-errors": "^1.7.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.3",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "pino": "^5.13.0",
+    "pino-pretty": "^3.2.0",
+    "sharp": "^0.22.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
