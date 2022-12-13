@@ -30,7 +30,7 @@
     "cls-hooked": "^4.2.2",
     "cors": "^2.8.5",
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gridfs-stream": "^1.1.1",
     "http-errors": "^1.7.3",
     "method-override": "^3.0.0",
